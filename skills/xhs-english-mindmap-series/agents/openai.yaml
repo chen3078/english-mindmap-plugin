@@ -1,0 +1,4 @@
+interface:
+  display_name: "英语思维导图系列｜Key/Cup手绘"
+  short_description: "生成Key/Cup手绘导图、双语问答、英文文本及视频单图"
+  default_prompt: "使用 $xhs-english-mindmap-series 制作一个新的英语主题系列，主题是："

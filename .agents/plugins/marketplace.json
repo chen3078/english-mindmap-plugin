@@ -1,0 +1,10 @@
+{
+  "name": "english-mindmap",
+  "interface": {"displayName": "英语口语思维导图插件"},
+  "plugins": [{
+    "name": "english-mindmap",
+    "source": {"source": "local", "path": "./"},
+    "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"},
+    "category": "Productivity"
+  }]
+}

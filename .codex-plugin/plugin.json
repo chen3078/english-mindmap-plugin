@@ -1,0 +1,23 @@
+{
+  "name": "english-mindmap",
+  "version": "1.0.0",
+  "description": "Create coordinated English mind maps, picture-only practice, bilingual Q&A and video stills from a chosen topic.",
+  "author": {
+    "name": "新陈代谢（英语版）"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "英语口语思维导图",
+    "shortDescription": "自选生活主题，制作导图、看图练习和双语问答。",
+    "longDescription": "为成人英语初学者和亲子学习制作配套导图、无提示练习、双语问答及视频素材。内含认可模板、内容规划、连线及逐图检查标准，需在支持图片生成和本地脚本的Codex环境使用。",
+    "developerName": "新陈代谢（英语版）",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "主题：镜子。先按照skill规划完整双语问答供我确认，再制作配套图片。"
+  },
+  "extensions": {
+    "com.openai": {
+      "onboardingSkill": "./skills/english-mindmap-setup/SKILL.md"
+    }
+  }
+}

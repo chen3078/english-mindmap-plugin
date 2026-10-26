@@ -1,0 +1,274 @@
+{
+  "topic_en": "Cup",
+  "topic_zh": "杯子",
+  "category": "everyday_object",
+  "audience": "adult_beginner",
+  "brand": "新陈代谢（英语版）",
+  "groups": [
+    {
+      "id": 1,
+      "heading_en": "What",
+      "keywords_en": [
+        "small container",
+        "water or drinks"
+      ],
+      "illustration": "A small cup and water droplets."
+    },
+    {
+      "id": 2,
+      "heading_en": "Looks",
+      "keywords_en": [
+        "pink",
+        "cute",
+        "Hello Kitty picture"
+      ],
+      "illustration": "A pink cup with a cute Hello Kitty picture; arrows point to its features."
+    },
+    {
+      "id": 3,
+      "heading_en": "Material & Parts",
+      "keywords_en": [
+        "glass",
+        "no handle",
+        "no lid"
+      ],
+      "illustration": "A glass cup, with separate close-ups showing no handle and no lid."
+    },
+    {
+      "id": 4,
+      "heading_en": "Kinds",
+      "keywords_en": [
+        "glass cup",
+        "plastic cup"
+      ],
+      "illustration": "A transparent glass cup and an opaque plastic cup."
+    },
+    {
+      "id": 5,
+      "heading_en": "Use",
+      "keywords_en": [
+        "water",
+        "juice",
+        "other drinks",
+        "every day"
+      ],
+      "illustration": "Cups holding water, juice and another drink, plus a calendar."
+    },
+    {
+      "id": 6,
+      "heading_en": "Keep & Clean",
+      "keywords_en": [
+        "on the table",
+        "dish soap + brush",
+        "rinse with water"
+      ],
+      "illustration": "A cup on a table, then washing with soap and a brush, then rinsing."
+    },
+    {
+      "id": 7,
+      "heading_en": "Buy",
+      "keywords_en": [
+        "store",
+        "supermarket",
+        "online"
+      ],
+      "illustration": "A local store, a supermarket, and an online shop."
+    },
+    {
+      "id": 8,
+      "heading_en": "Made",
+      "keywords_en": [
+        "factory",
+        "heat",
+        "shape",
+        "cup"
+      ],
+      "illustration": "A simple glass-cup making sequence: factory, heat, shape, cup."
+    },
+    {
+      "id": 9,
+      "heading_en": "Why I like it",
+      "keywords_en": [
+        "cute",
+        "looks nice"
+      ],
+      "illustration": "The cute pink cup with cheerful yellow rays."
+    }
+  ],
+  "qa_items": [
+    {
+      "id": 1,
+      "group_id": 1,
+      "question_en": "What is a cup?",
+      "answer_en": "A cup is a small container that can hold water or other drinks.",
+      "question_zh": "杯子是什么？",
+      "answer_zh": "杯子是一种可以盛水或其他饮品的小容器。"
+    },
+    {
+      "id": 2,
+      "group_id": 2,
+      "question_en": "What does your cup look like?",
+      "answer_en": "It looks cute and has a Hello Kitty picture on it.",
+      "question_zh": "你的杯子是什么样子的？",
+      "answer_zh": "它很可爱，上面有一幅 Hello Kitty 图案。"
+    },
+    {
+      "id": 3,
+      "group_id": 2,
+      "question_en": "What color is your cup?",
+      "answer_en": "It’s pink.",
+      "question_zh": "你的杯子是什么颜色的？",
+      "answer_zh": "它是粉色的。"
+    },
+    {
+      "id": 4,
+      "group_id": 3,
+      "question_en": "What is your cup made of?",
+      "answer_en": "My cup is made of glass.",
+      "question_zh": "你的杯子是什么材料做的？",
+      "answer_zh": "我的杯子是玻璃做的。"
+    },
+    {
+      "id": 5,
+      "group_id": 3,
+      "question_en": "What parts does your cup have?",
+      "answer_en": "My cup has no handle or lid. Some cups have a handle or a lid.",
+      "question_zh": "你的杯子有哪些部分？",
+      "answer_zh": "我的杯子没有把手或盖子。有些杯子有把手或盖子。"
+    },
+    {
+      "id": 6,
+      "group_id": 4,
+      "question_en": "What are two common kinds of cups?",
+      "answer_en": "Two common kinds are glass cups and plastic cups.",
+      "question_zh": "常见的两种杯子是什么？",
+      "answer_zh": "常见的两种是玻璃杯和塑料杯。"
+    },
+    {
+      "id": 7,
+      "group_id": 5,
+      "question_en": "What do you use your cup for?",
+      "answer_en": "I use my cup to drink water, juice, and other drinks.",
+      "question_zh": "你用杯子做什么？",
+      "answer_zh": "我用杯子喝水、果汁和其他饮品。"
+    },
+    {
+      "id": 8,
+      "group_id": 5,
+      "question_en": "How often do you use your cup?",
+      "answer_en": "I use my cup every day.",
+      "question_zh": "你多久使用一次杯子？",
+      "answer_zh": "我每天都用我的杯子。"
+    },
+    {
+      "id": 9,
+      "group_id": 6,
+      "question_en": "Where do you usually keep your cup?",
+      "answer_en": "I usually keep my cup on the table.",
+      "question_zh": "你通常把杯子放在哪里？",
+      "answer_zh": "我通常把杯子放在桌子上。"
+    },
+    {
+      "id": 10,
+      "group_id": 6,
+      "question_en": "How do you clean your cup?",
+      "answer_en": "I wash it with dish soap and a brush, and then rinse it with water.",
+      "question_zh": "你怎样清洗杯子？",
+      "answer_zh": "我用洗洁精和刷子清洗它，然后用水冲净。"
+    },
+    {
+      "id": 11,
+      "group_id": 7,
+      "question_en": "Where can we buy a cup?",
+      "answer_en": "We can buy a cup at a store, at a supermarket, or online.",
+      "question_zh": "我们可以在哪里买杯子？",
+      "answer_zh": "我们可以在商店、超市或网上买杯子。"
+    },
+    {
+      "id": 12,
+      "group_id": 8,
+      "question_en": "Do you know how a glass cup is made?",
+      "answer_en": "A glass cup is made in a factory. Workers heat the glass and shape it into a cup.",
+      "question_zh": "你知道玻璃杯是怎么做的吗？",
+      "answer_zh": "玻璃杯在工厂制作。工人加热玻璃，再把它塑造成杯子。"
+    },
+    {
+      "id": 13,
+      "group_id": 9,
+      "question_en": "Do you like your cup? Why?",
+      "answer_en": "Yes, I like it because it is cute and looks nice.",
+      "question_zh": "你喜欢你的杯子吗？为什么？",
+      "answer_zh": "是的，我喜欢它，因为它很可爱，也很好看。"
+    }
+  ],
+  "visual_family": "home",
+  "content_plan": {
+    "version": 1,
+    "profile": "manufactured_object",
+    "scope": "full",
+    "dimensions": {
+      "identity": {
+        "status": "included",
+        "question_ids": [
+          1
+        ]
+      },
+      "features": {
+        "status": "included",
+        "question_ids": [
+          2,
+          3
+        ]
+      },
+      "composition": {
+        "status": "included",
+        "question_ids": [
+          4,
+          5
+        ]
+      },
+      "types": {
+        "status": "included",
+        "question_ids": [
+          6
+        ]
+      },
+      "use": {
+        "status": "included",
+        "question_ids": [
+          7,
+          8
+        ]
+      },
+      "acquisition_care": {
+        "status": "included",
+        "question_ids": [
+          9,
+          10,
+          11
+        ]
+      },
+      "origin": {
+        "status": "omitted",
+        "reason": "The making question covers the selected glass-cup production path; raw-material extraction is beyond this beginner lesson."
+      },
+      "process": {
+        "status": "included",
+        "question_ids": [
+          12
+        ],
+        "kind": "manufacturing",
+        "steps": [
+          "heat the glass",
+          "shape it into a cup"
+        ]
+      },
+      "extension": {
+        "status": "included",
+        "question_ids": [
+          13
+        ]
+      }
+    }
+  }
+}

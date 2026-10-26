@@ -1,0 +1,221 @@
+{
+  "topic_en": "Mirror",
+  "topic_zh": "镜子",
+  "category": "everyday_object",
+  "audience": "adult_beginner",
+  "brand": "新陈代谢（英语版）",
+  "visual_family": "home",
+  "groups": [
+    {
+      "id": 1,
+      "heading_en": "What",
+      "keywords_en": [
+        "see yourself"
+      ],
+      "illustration": "Clearly depict see yourself for this mirror lesson."
+    },
+    {
+      "id": 2,
+      "heading_en": "Shapes",
+      "keywords_en": [
+        "round",
+        "oval",
+        "rectangular"
+      ],
+      "illustration": "Clearly depict round, oval, rectangular for this mirror lesson."
+    },
+    {
+      "id": 3,
+      "heading_en": "Material & Parts",
+      "keywords_en": [
+        "glass",
+        "reflective layer",
+        "frame"
+      ],
+      "illustration": "Clearly depict glass, reflective layer, frame for this mirror lesson."
+    },
+    {
+      "id": 4,
+      "heading_en": "Kinds",
+      "keywords_en": [
+        "wall mirror",
+        "hand mirror"
+      ],
+      "illustration": "Clearly depict wall mirror, hand mirror for this mirror lesson."
+    },
+    {
+      "id": 5,
+      "heading_en": "Where",
+      "keywords_en": [
+        "bathroom",
+        "bedroom"
+      ],
+      "illustration": "Clearly depict bathroom, bedroom for this mirror lesson.",
+      "dimension": "location"
+    },
+    {
+      "id": 6,
+      "heading_en": "Use",
+      "keywords_en": [
+        "brush hair",
+        "check clothes"
+      ],
+      "illustration": "Clearly depict brush hair, check clothes for this mirror lesson."
+    },
+    {
+      "id": 7,
+      "heading_en": "Cleaning",
+      "keywords_en": [
+        "wipe",
+        "soft cloth"
+      ],
+      "illustration": "Clearly depict wipe, soft cloth for this mirror lesson."
+    },
+    {
+      "id": 8,
+      "heading_en": "Made",
+      "keywords_en": [
+        "glass",
+        "silver layer",
+        "protective paint"
+      ],
+      "illustration": "Clearly depict glass, silver layer, protective paint for this mirror lesson."
+    }
+  ],
+  "qa_items": [
+    {
+      "id": 1,
+      "group_id": 1,
+      "question_en": "What is a mirror?",
+      "answer_en": "A mirror is an object that lets you see yourself.",
+      "question_zh": "镜子是什么？",
+      "answer_zh": "镜子是一种让你看到自己的物品。"
+    },
+    {
+      "id": 2,
+      "group_id": 2,
+      "question_en": "What shapes can mirrors have?",
+      "answer_en": "Mirrors can be round, oval, or rectangular.",
+      "question_zh": "镜子有哪些形状？",
+      "answer_zh": "镜子可以是圆形、椭圆形或长方形的。"
+    },
+    {
+      "id": 3,
+      "group_id": 3,
+      "question_en": "What parts can a mirror have?",
+      "answer_en": "Many mirrors have glass with a reflective layer. Some also have a frame.",
+      "question_zh": "镜子可以有哪些部分？",
+      "answer_zh": "许多镜子有玻璃和反光层，有些还有镜框。",
+      "source_urls": [
+        "https://www.guardianglass.com/us/en/our-glass/glass-types/mirror-glass"
+      ]
+    },
+    {
+      "id": 4,
+      "group_id": 4,
+      "question_en": "What kinds of mirrors can we use?",
+      "answer_en": "We can use a wall mirror or a hand mirror.",
+      "question_zh": "我们可以使用哪些镜子？",
+      "answer_zh": "我们可以使用壁挂镜或手持镜。"
+    },
+    {
+      "id": 5,
+      "group_id": 5,
+      "question_en": "Where can we find mirrors at home?",
+      "answer_en": "We can find them in bathrooms and bedrooms.",
+      "question_zh": "家里哪里有镜子？",
+      "answer_zh": "我们可以在浴室和卧室找到镜子。"
+    },
+    {
+      "id": 6,
+      "group_id": 6,
+      "question_en": "What do we use mirrors for?",
+      "answer_en": "We use them to brush our hair and check our clothes.",
+      "question_zh": "我们用镜子做什么？",
+      "answer_zh": "我们用镜子梳头和检查衣着。"
+    },
+    {
+      "id": 7,
+      "group_id": 7,
+      "question_en": "How can we clean a mirror?",
+      "answer_en": "We can wipe it with a soft cloth.",
+      "question_zh": "我们可以怎样清洁镜子？",
+      "answer_zh": "我们可以用软布擦拭镜子。"
+    },
+    {
+      "id": 8,
+      "group_id": 8,
+      "question_en": "How is a common glass mirror made?",
+      "answer_en": "Workers add a silver layer to glass, then cover it with protective paint.",
+      "question_zh": "常见的玻璃镜子是怎样制作的？",
+      "answer_zh": "工人在玻璃上加一层银，再涂上保护漆。",
+      "source_urls": [
+        "https://www.guardianglass.com/us/en/our-glass/glass-types/mirror-glass"
+      ]
+    }
+  ],
+  "fixture_note": "Content planning regression example, not owner-approved artwork or a new image deliverable.",
+  "content_plan": {
+    "version": 1,
+    "profile": "manufactured_object",
+    "scope": "full",
+    "dimensions": {
+      "identity": {
+        "status": "included",
+        "question_ids": [
+          1
+        ]
+      },
+      "features": {
+        "status": "included",
+        "question_ids": [
+          2
+        ]
+      },
+      "composition": {
+        "status": "included",
+        "question_ids": [
+          3
+        ]
+      },
+      "types": {
+        "status": "included",
+        "question_ids": [
+          4
+        ]
+      },
+      "use": {
+        "status": "included",
+        "question_ids": [
+          6
+        ]
+      },
+      "acquisition_care": {
+        "status": "included",
+        "question_ids": [
+          5,
+          7
+        ]
+      },
+      "origin": {
+        "status": "omitted",
+        "reason": "Glass manufacturing and silver mining are outside this beginner mirror lesson; the selected mirror-making process is covered."
+      },
+      "process": {
+        "status": "included",
+        "question_ids": [
+          8
+        ],
+        "kind": "manufacturing",
+        "steps": [
+          "add a silver layer to glass",
+          "cover it with protective paint"
+        ]
+      },
+      "extension": {
+        "status": "omitted",
+        "reason": "No extra optical applications are needed for this household introduction."
+      }
+    }
+  }
+}

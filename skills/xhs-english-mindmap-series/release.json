@@ -1,0 +1,14 @@
+{
+  "name": "xhs-english-mindmap-series",
+  "version": "2026.10.26.3",
+  "release_date": "2026-10-26",
+  "visual_standards": "home-door-window-lessons-2026-10-25",
+  "python_minimum": "3.10",
+  "tested_python": "3.11.1",
+  "tested_pillow": "10.1.0",
+  "new_topic_generation_validated": false,
+  "quality_claim": "Portable standards, bound review artifacts and locally linked generation evidence; remote execution authenticity is not independently verified, and new-topic visual quality requires actual generation and inspection.",
+  "reference_role_policy": 1,
+  "content_policy": "category-knowledge-path-v1",
+  "connector_policy": 1
+}
