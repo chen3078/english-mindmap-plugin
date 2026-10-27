@@ -1,0 +1,193 @@
+{
+  "topic_en": "Tomato",
+  "topic_zh": "番茄",
+  "category": "plant",
+  "audience": "children",
+  "brand": "新陈代谢（英语版）",
+  "status": "approved",
+  "groups": [
+    {
+      "id": 1,
+      "heading_en": "What",
+      "keywords_en": [
+        "a fruit",
+        "grows on a plant"
+      ],
+      "illustration": "One recognizable tomato fruit attached to a living tomato plant; show the whole plant context without making the tomato look like a root vegetable.",
+      "qa": {
+        "question_en": "What is a tomato?",
+        "answer_en": "A tomato is a fruit that grows on a tomato plant.",
+        "question_zh": "番茄是什么？",
+        "answer_zh": "番茄是一种长在番茄植株上的果实。"
+      }
+    },
+    {
+      "id": 2,
+      "heading_en": "Looks",
+      "keywords_en": [
+        "often round",
+        "smooth",
+        "red"
+      ],
+      "illustration": "A familiar ripe red tomato with round shape and smooth skin; the word often must be preserved because tomatoes vary in shape and color.",
+      "qa": {
+        "question_en": "What does a tomato often look like?",
+        "answer_en": "It is often round, smooth, and red.",
+        "question_zh": "番茄通常长什么样？",
+        "answer_zh": "它通常是圆的、表皮光滑，而且是红色的。"
+      }
+    },
+    {
+      "id": 3,
+      "heading_en": "Inside",
+      "keywords_en": [
+        "juicy flesh",
+        "small seeds"
+      ],
+      "illustration": "A clean tomato cross-section large enough to show juicy flesh and multiple small seeds inside, clearly distinct from the outer appearance group.",
+      "qa": {
+        "question_en": "What is inside a tomato?",
+        "answer_en": "It has juicy flesh and many small seeds.",
+        "question_zh": "番茄里面有什么？",
+        "answer_zh": "里面有多汁的果肉和许多小种子。"
+      }
+    },
+    {
+      "id": 4,
+      "heading_en": "Plant",
+      "keywords_en": [
+        "green leaves",
+        "small yellow flowers"
+      ],
+      "illustration": "One tomato plant branch with recognizable green leaves and several small yellow flowers, not a potato plant or generic flower stalk.",
+      "qa": {
+        "question_en": "What does a tomato plant have?",
+        "answer_en": "It has green leaves and small yellow flowers.",
+        "question_zh": "番茄植株有什么？",
+        "answer_zh": "它有绿叶和小黄花。"
+      }
+    },
+    {
+      "id": 5,
+      "heading_en": "Where",
+      "keywords_en": [
+        "gardens",
+        "farms",
+        "pots"
+      ],
+      "illustration": "Three distinct settings: a tomato plant in a garden bed, several tomato plants on a farm, and one tomato plant in a large pot.",
+      "qa": {
+        "question_en": "Where can tomato plants grow?",
+        "answer_en": "They can grow in gardens, on farms, and in pots.",
+        "question_zh": "番茄植株可以生长在哪里？",
+        "answer_zh": "它们可以生长在花园、农田和花盆里。"
+      },
+      "dimension": "location"
+    },
+    {
+      "id": 6,
+      "heading_en": "Needs",
+      "keywords_en": [
+        "sunlight",
+        "water",
+        "good soil"
+      ],
+      "illustration": "Sun rays, water droplets, and suitable soil helping a healthy tomato plant grow; show helpful growing conditions without implying every tomato must be grown in soil.",
+      "qa": {
+        "question_en": "What helps tomato plants grow?",
+        "answer_en": "Sunlight, water, and good soil help them grow.",
+        "question_zh": "什么能帮助番茄植株生长？",
+        "answer_zh": "阳光、水和适宜的土壤能帮助它们生长。"
+      },
+      "dimension": "needs"
+    },
+    {
+      "id": 7,
+      "heading_en": "Growing",
+      "keywords_en": [
+        "flower",
+        "small tomato",
+        "bigger tomato"
+      ],
+      "illustration": "A true left-to-right sequence on the same tomato plant: yellow flower, tiny green tomato forming after the flower, larger tomato; use one growth arrow, not a seed-to-plant sequence.",
+      "qa": {
+        "question_en": "How do tomatoes grow?",
+        "answer_en": "They grow from the plant's flowers and get bigger.",
+        "question_zh": "番茄是怎样长出来的？",
+        "answer_zh": "它们由植株上的花发育而来，然后慢慢长大。"
+      }
+    },
+    {
+      "id": 8,
+      "heading_en": "Uses",
+      "keywords_en": [
+        "eat fresh",
+        "make sauce"
+      ],
+      "illustration": "Two familiar food uses: fresh tomato slices in a salad and cooked tomato sauce in a small bowl or pot; no pizza or ketchup brand.",
+      "qa": {
+        "question_en": "How can we eat tomatoes?",
+        "answer_en": "We can eat them fresh or cook them into sauce.",
+        "question_zh": "我们可以怎样吃番茄？",
+        "answer_zh": "我们可以生吃番茄，也可以把它们煮成酱。"
+      }
+    }
+  ],
+  "visual_family": "general",
+  "content_plan": {
+    "version": 1,
+    "profile": "plant",
+    "scope": "full",
+    "dimensions": {
+      "identity": {
+        "status": "included",
+        "question_ids": [
+          1
+        ]
+      },
+      "features": {
+        "status": "included",
+        "question_ids": [
+          2
+        ]
+      },
+      "composition": {
+        "status": "included",
+        "question_ids": [
+          3,
+          4
+        ]
+      },
+      "types": {
+        "status": "omitted",
+        "reason": "This topic describes a general tomato plant rather than varieties."
+      },
+      "use": {
+        "status": "included",
+        "question_ids": [
+          6,
+          8
+        ]
+      },
+      "acquisition_care": {
+        "status": "omitted",
+        "reason": "Growth requirements are covered; buying and household storage are outside this plant-focused lesson."
+      },
+      "origin": {
+        "status": "included",
+        "question_ids": [
+          5,
+          7
+        ]
+      },
+      "process": {
+        "status": "omitted",
+        "reason": "Growing is introduced in one simple answer; detailed seed-to-fruit stages are deferred instead of inventing steps."
+      },
+      "extension": {
+        "status": "omitted",
+        "reason": "No additional comparison or personal preference is needed for this plant introduction."
+      }
+    }
+  }
+}

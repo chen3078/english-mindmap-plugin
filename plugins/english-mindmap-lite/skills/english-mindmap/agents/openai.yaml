@@ -1,0 +1,4 @@
+interface:
+  display_name: "English-mindmap｜三类图片精简版"
+  short_description: "生成英文导图、无字练习图和中英双语问答图片"
+  default_prompt: "使用 $english-mindmap，主题：〔主题〕。只制作思维导图完整版、练习版和中英双语问答图片。"

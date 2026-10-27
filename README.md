@@ -1,10 +1,21 @@
 # 英语口语思维导图 · Codex 插件
 
+**现有两个独立版本，可并存：** 原完整版 `english-mindmap`；新增 [三类图片精简版 `english-mindmap-lite`](plugins/english-mindmap-lite/README.md)，只生成完整版导图、无字练习图和中英双语问答图片。精简版基于 English-mindmap-2026.10.27，原完整版代码和参考图保持不变。
+
+安装精简版：
+
+```text
+codex plugin marketplace add chen3078/english-mindmap-plugin
+codex plugin add english-mindmap-lite@english-mindmap
+```
+
+已经添加过来源时先执行 `codex plugin marketplace upgrade english-mindmap`。迁移到其他电脑请看[精简版中文教程](plugins/english-mindmap-lite/INSTALL.zh-CN.md)，下载[精简版插件迁移包](https://github.com/chen3078/english-mindmap-plugin/releases/tag/lite-v1.0.0)。下文为原完整版说明。
+
 选一个生活主题，制作配套的**完整思维导图、无提示练习图、双语问答**：用图片找到表达角度，理解完整回答，再看图尝试自己说。适合成人英语初学者和想陪孩子练英语的家长。
 
 插件 **v1.0.0**，内置 skill **v2026.10.26.3**。免费领取插件；Codex及生图服务的账号权限、额度和费用按所用服务规则。
 
-[中文安装指南](INSTALL.zh-CN.md) · [下载完整插件包](https://github.com/chen3078/english-mindmap-plugin/releases/latest)
+[中文安装指南](INSTALL.zh-CN.md) · [下载原完整版插件包](https://github.com/chen3078/english-mindmap-plugin/releases/tag/v1.0.0)
 
 下图是包内已认可的家居篇风格参考，供了解整页效果；新主题会按自身内容重新规划。
 

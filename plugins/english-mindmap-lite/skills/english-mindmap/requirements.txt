@@ -1,0 +1,2 @@
+# Reproduces the Pillow version used for this release's tool validation.
+Pillow==10.1.0

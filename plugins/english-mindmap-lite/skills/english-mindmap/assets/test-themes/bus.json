@@ -1,0 +1,210 @@
+{
+  "topic_en": "Bus",
+  "topic_zh": "公交车",
+  "category": "transport",
+  "audience": "children",
+  "brand": "新陈代谢（英语版）",
+  "groups": [
+    {
+      "id": 1,
+      "heading_en": "What",
+      "keywords_en": [
+        "a large road vehicle",
+        "many passengers"
+      ],
+      "illustration": "An ordinary city bus carrying several people on a road.",
+      "qa": {
+        "question_en": "What is a bus?",
+        "answer_en": "A bus is a large road vehicle that carries many passengers.",
+        "question_zh": "公交车是什么？",
+        "answer_zh": "公交车是一种在道路上行驶、能载许多乘客的大型车辆。"
+      }
+    },
+    {
+      "id": 2,
+      "heading_en": "Parts",
+      "keywords_en": [
+        "wheels",
+        "doors",
+        "windows",
+        "seats"
+      ],
+      "illustration": "Clear studies of bus wheels, doors, windows, and seats.",
+      "qa": {
+        "question_en": "What parts does a bus have?",
+        "answer_en": "A bus has wheels, doors, windows, and seats.",
+        "question_zh": "公交车有哪些部分？",
+        "answer_zh": "公交车有车轮、车门、车窗和座位。"
+      }
+    },
+    {
+      "id": 3,
+      "heading_en": "Kinds",
+      "keywords_en": [
+        "city bus",
+        "school bus",
+        "double-decker bus"
+      ],
+      "illustration": "Three recognizable buses: city bus, school bus, and double-decker bus; colors need not be universal.",
+      "qa": {
+        "question_en": "What kinds of buses are there?",
+        "answer_en": "There are city buses, school buses, and double-decker buses.",
+        "question_zh": "有哪些种类的公交车？",
+        "answer_zh": "有城市公交车、校车和双层巴士。"
+      }
+    },
+    {
+      "id": 4,
+      "heading_en": "Where",
+      "keywords_en": [
+        "roads",
+        "bus stops",
+        "routes"
+      ],
+      "illustration": "A bus on a road following a route and stopping at a bus stop.",
+      "qa": {
+        "question_en": "Where does a bus go?",
+        "answer_en": "A bus follows a route on roads and stops at bus stops.",
+        "question_zh": "公交车在哪里行驶？",
+        "answer_zh": "公交车沿道路上的路线行驶，并在公交站停靠。"
+      }
+    },
+    {
+      "id": 5,
+      "heading_en": "People",
+      "keywords_en": [
+        "driver",
+        "passengers"
+      ],
+      "illustration": "A bus driver at the wheel and passengers riding in seats.",
+      "qa": {
+        "question_en": "Who is on a bus?",
+        "answer_en": "A driver drives the bus, and passengers ride on it.",
+        "question_zh": "公交车上有哪些人？",
+        "answer_zh": "司机驾驶公交车，乘客乘坐公交车。"
+      }
+    },
+    {
+      "id": 6,
+      "heading_en": "Getting On",
+      "keywords_en": [
+        "wait",
+        "let others off",
+        "get on"
+      ],
+      "illustration": "A child waits at a bus stop, lets passengers leave, then boards; show arrows in that order.",
+      "qa": {
+        "question_en": "How do people get on a bus?",
+        "answer_en": "We wait at a bus stop, let others get off, and then get on.",
+        "question_zh": "人们怎样上公交车？",
+        "answer_zh": "我们在公交站等候，先让别人下车，然后再上车。"
+      }
+    },
+    {
+      "id": 7,
+      "heading_en": "Paying",
+      "keywords_en": [
+        "ticket",
+        "card",
+        "cash"
+      ],
+      "illustration": "Generic ticket, payment card, and coins; avoid a locale-specific machine.",
+      "qa": {
+        "question_en": "How might people pay for a bus ride?",
+        "answer_en": "People may use a ticket, a card, or cash, depending on the bus service.",
+        "question_zh": "乘公交车可能怎样付费？",
+        "answer_zh": "不同公交服务可能使用车票、卡或现金付费。"
+      }
+    },
+    {
+      "id": 8,
+      "heading_en": "Riding Safely",
+      "keywords_en": [
+        "sit down",
+        "hold a handrail"
+      ],
+      "illustration": "A seated passenger and a standing passenger holding a handrail on a moving bus.",
+      "qa": {
+        "question_en": "What should we do while the bus moves?",
+        "answer_en": "We should sit down or hold a handrail while the bus moves.",
+        "question_zh": "公交车行驶时我们应该做什么？",
+        "answer_zh": "公交车行驶时，我们应该坐好或扶住扶手。"
+      }
+    },
+    {
+      "id": 9,
+      "heading_en": "Why We Use It",
+      "keywords_en": [
+        "go to school",
+        "go to work",
+        "travel around town"
+      ],
+      "illustration": "A school, workplace, and town route connected by a bus journey.",
+      "qa": {
+        "question_en": "Why do people take a bus?",
+        "answer_en": "People take a bus to go to school, go to work, or travel around town.",
+        "question_zh": "人们为什么乘公交车？",
+        "answer_zh": "人们乘公交车去上学、上班，或在城镇里出行。"
+      }
+    }
+  ],
+  "visual_family": "general",
+  "content_plan": {
+    "version": 1,
+    "profile": "transport",
+    "scope": "full",
+    "dimensions": {
+      "identity": {
+        "status": "included",
+        "question_ids": [
+          1
+        ]
+      },
+      "features": {
+        "status": "omitted",
+        "reason": "Appearance is not a separate learning goal in this riding-focused introductory topic."
+      },
+      "composition": {
+        "status": "included",
+        "question_ids": [
+          2
+        ]
+      },
+      "types": {
+        "status": "included",
+        "question_ids": [
+          3
+        ]
+      },
+      "use": {
+        "status": "included",
+        "question_ids": [
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "acquisition_care": {
+        "status": "included",
+        "question_ids": [
+          8
+        ]
+      },
+      "origin": {
+        "status": "omitted",
+        "reason": "Factory history is not selected; lesson emphasizes public transport use."
+      },
+      "process": {
+        "status": "omitted",
+        "reason": "Existing boarding question has one step; it is not relabelled as a multi-stage manufacturing process."
+      },
+      "extension": {
+        "status": "included",
+        "question_ids": [
+          9
+        ]
+      }
+    }
+  }
+}

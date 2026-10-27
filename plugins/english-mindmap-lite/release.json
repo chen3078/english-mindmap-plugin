@@ -1,0 +1,17 @@
+{
+  "plugin_name": "english-mindmap-lite",
+  "plugin_version": "1.0.0",
+  "release_tag": "lite-v1.0.0",
+  "skill_version": "2026.10.27.1",
+  "source_archive": "English-mindmap-2026.10.27.zip",
+  "source_archive_sha256": "9c45553acf357b914423203b2d9dce4cabce2f45d5c20ac66704c9d22a42db81",
+  "source_skill_bytes_unchanged": true,
+  "reference_pngs": 16,
+  "deliverables": [
+    "cover",
+    "practice",
+    "qa"
+  ],
+  "full_edition_unchanged": true,
+  "receiver_end_to_end_tested": false
+}

@@ -1,5 +1,6 @@
 * text=auto eol=lf
 # Preserve exact inventory hashes across Windows/macOS/Linux checkouts.
 skills/xhs-english-mindmap-series/** -text
+plugins/english-mindmap-lite/skills/english-mindmap/** -text
 *.png binary
 *.ttf binary

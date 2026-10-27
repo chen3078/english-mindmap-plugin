@@ -1,0 +1,4 @@
+interface:
+  display_name: "三类图片版｜首次使用与迁移检查"
+  short_description: "检查插件安装、Python依赖、完整参考图和实际生图条件，帮助新电脑开始使用"
+  default_prompt: "使用 $english-mindmap-lite-setup 检查当前安装副本与依赖，并说明如何开始第一个主题。"

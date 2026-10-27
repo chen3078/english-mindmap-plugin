@@ -1,0 +1,206 @@
+{
+  "topic_en": "Milk",
+  "topic_zh": "牛奶",
+  "category": "food",
+  "audience": "children",
+  "brand": "新陈代谢（英语版）",
+  "status": "candidate_for_user_review_2026-10-14",
+  "groups": [
+    {
+      "id": 1,
+      "heading_en": "What",
+      "keywords_en": [
+        "white drink",
+        "from cows"
+      ],
+      "illustration": "A glass of white milk and one dairy cow, clearly shown as its source.",
+      "qa": {
+        "question_en": "What is cow's milk?",
+        "answer_en": "Cow's milk is a white drink that comes from cows.",
+        "question_zh": "牛奶是什么？",
+        "answer_zh": "牛奶是一种来自奶牛的白色饮品。"
+      }
+    },
+    {
+      "id": 2,
+      "heading_en": "Looks & Taste",
+      "keywords_en": [
+        "white",
+        "smooth",
+        "a little sweet"
+      ],
+      "illustration": "Separate views of poured white milk, smooth milk in a glass, and a child tasting plain milk.",
+      "qa": {
+        "question_en": "What does plain milk look and taste like?",
+        "answer_en": "It is white and smooth, and it tastes a little sweet.",
+        "question_zh": "原味牛奶看起来和喝起来怎么样？",
+        "answer_zh": "它是白色的，口感顺滑，味道有一点甜。"
+      }
+    },
+    {
+      "id": 3,
+      "heading_en": "Nutrition",
+      "keywords_en": [
+        "calcium",
+        "protein",
+        "strong bones"
+      ],
+      "illustration": "A glass of milk with separate calcium and protein cues and a small bone motif.",
+      "qa": {
+        "question_en": "What nutrients does milk have?",
+        "answer_en": "Milk has calcium and protein. Calcium helps build strong bones.",
+        "question_zh": "牛奶含有什么营养成分？",
+        "answer_zh": "牛奶含有钙和蛋白质。钙有助于强健骨骼。"
+      }
+    },
+    {
+      "id": 4,
+      "heading_en": "Kinds",
+      "keywords_en": [
+        "whole milk",
+        "low-fat milk",
+        "lactose-free milk"
+      ],
+      "illustration": "Three separate milk cartons for whole, low-fat, and lactose-free milk.",
+      "qa": {
+        "question_en": "What kinds of milk can we buy?",
+        "answer_en": "We can buy whole milk, low-fat milk, or lactose-free milk.",
+        "question_zh": "我们可以买到哪些种类的牛奶？",
+        "answer_zh": "我们可以买到全脂牛奶、低脂牛奶或无乳糖牛奶。"
+      }
+    },
+    {
+      "id": 5,
+      "heading_en": "Drink & Use",
+      "keywords_en": [
+        "cold",
+        "warm",
+        "cereal",
+        "smoothie"
+      ],
+      "illustration": "Four mini-scenes: cold white milk, warm milk, milk poured on cereal, fruit smoothie made with milk.",
+      "qa": {
+        "question_en": "How can we drink or use milk?",
+        "answer_en": "We can drink it cold or warm. We can add it to cereal or make a smoothie.",
+        "question_zh": "我们可以怎样喝或使用牛奶？",
+        "answer_zh": "我们可以喝冷牛奶或温牛奶，也可以把它加到麦片里，或用它做奶昔。"
+      }
+    },
+    {
+      "id": 6,
+      "heading_en": "Where",
+      "keywords_en": [
+        "supermarket",
+        "convenience store",
+        "fridge"
+      ],
+      "illustration": "A supermarket, a convenience store, and an opened milk carton in a refrigerator.",
+      "qa": {
+        "question_en": "Where can we buy milk, and where do we keep it after opening?",
+        "answer_en": "We can buy it at a supermarket or convenience store. We keep opened milk in the fridge.",
+        "question_zh": "我们可以在哪里购买牛奶？开封后要放在哪里？",
+        "answer_zh": "我们可以在超市或便利店买牛奶。开封后要把牛奶放进冰箱。"
+      },
+      "dimension": "location"
+    },
+    {
+      "id": 7,
+      "heading_en": "Made",
+      "keywords_en": [
+        "collect",
+        "heat",
+        "package"
+      ],
+      "illustration": "Process with arrows: cow and collected milk, controlled heating in a dairy plant, sealed carton and bottle.",
+      "qa": {
+        "question_en": "How does milk get from cows to stores?",
+        "answer_en": "Farmers collect it. It is heated for safety, then put in cartons or bottles.",
+        "question_zh": "牛奶怎样从奶牛那里来到商店？",
+        "answer_zh": "人们先收集牛奶，再加热处理，最后装进纸盒或瓶子。"
+      }
+    },
+    {
+      "id": 8,
+      "heading_en": "Foods",
+      "keywords_en": [
+        "yogurt",
+        "cheese"
+      ],
+      "illustration": "Plain yogurt and cheese as two separate finished foods made from milk.",
+      "qa": {
+        "question_en": "What foods can be made from milk?",
+        "answer_en": "Yogurt and cheese can be made from milk.",
+        "question_zh": "牛奶可以制成什么食物？",
+        "answer_zh": "牛奶可以制成酸奶和奶酪。"
+      }
+    }
+  ],
+  "visual_family": "general",
+  "content_plan": {
+    "version": 1,
+    "profile": "food",
+    "scope": "full",
+    "dimensions": {
+      "identity": {
+        "status": "included",
+        "question_ids": [
+          1
+        ]
+      },
+      "features": {
+        "status": "included",
+        "question_ids": [
+          2
+        ]
+      },
+      "composition": {
+        "status": "included",
+        "question_ids": [
+          3
+        ]
+      },
+      "types": {
+        "status": "included",
+        "question_ids": [
+          4
+        ]
+      },
+      "use": {
+        "status": "included",
+        "question_ids": [
+          5
+        ]
+      },
+      "acquisition_care": {
+        "status": "included",
+        "question_ids": [
+          6
+        ]
+      },
+      "origin": {
+        "status": "included",
+        "question_ids": [
+          1
+        ]
+      },
+      "process": {
+        "status": "included",
+        "question_ids": [
+          7
+        ],
+        "kind": "processing",
+        "steps": [
+          "collect it",
+          "heated for safety",
+          "put in cartons or bottles"
+        ]
+      },
+      "extension": {
+        "status": "included",
+        "question_ids": [
+          8
+        ]
+      }
+    }
+  }
+}

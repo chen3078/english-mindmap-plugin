@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "path": "assets/approved-carrot/cover-size-reference.png",
+      "sha256": "cdd05e12448026244519a922036e960bbae01d7428bc823356be5ae1e5ed0292",
+      "roles": [
+        "subject_scale"
+      ],
+      "approval": "Owner-approved scoped reference retained in the portable skill; not approval of every image from the same topic."
+    },
+    {
+      "path": "assets/approved-carrot/practice-size-reference.png",
+      "sha256": "6b127fcae181fb150de9175b50a3d0905c30c2763a66abd7c482c2a41bf846cc",
+      "roles": [
+        "subject_scale"
+      ],
+      "approval": "Owner-approved scoped reference retained in the portable skill; not approval of every image from the same topic."
+    },
+    {
+      "path": "assets/approved-dog/cover.png",
+      "sha256": "ba2c3ca8d5cf0700e28bda97dfdc663fa0fe17ba2f114f1d2be65b82820b4e19",
+      "roles": [
+        "cover_layout"
+      ],
+      "approval": "Owner-approved scoped reference retained in the portable skill; not approval of every image from the same topic."
+    },
+    {
+      "path": "assets/approved-dog/picture-practice.png",
+      "sha256": "a20d6e7935b1c7e914c67f5fede5fc422723e132129b2adcfe35ab6656329b25",
+      "roles": [
+        "practice_layout"
+      ],
+      "approval": "Owner-approved scoped reference retained in the portable skill; not approval of every image from the same topic."
+    },
+    {
+      "path": "assets/approved-dog/qa-01-04.png",
+      "sha256": "3eb3f869bdae444ce0d4da789b9abd91b6ad9a8423ab367db4065caf4fb492a4",
+      "roles": [
+        "qa_layout"
+      ],
+      "approval": "Owner-approved scoped reference retained in the portable skill; not approval of every image from the same topic."
+    },
+    {
+      "path": "assets/approved-dog/qa-05-08.png",
+      "sha256": "995fd3df8341fbad6b14be496f65b2d73c59fea3777fc095351b48cb7abf2643",
+      "roles": [
+        "qa_layout"
+      ],
+      "approval": "Owner-approved scoped reference retained in the portable skill; not approval of every image from the same topic."
+    },
+    {
+      "path": "assets/approved-lion/picture-practice.png",
+      "sha256": "b3e79a5a8da13ffe88df32d6544fbcec408202563d5316fd3287a0b1484eed81",
+      "roles": [
+        "practice_layout"
+      ],
+      "approval": "Owner-approved scoped reference retained in the portable skill; not approval of every image from the same topic."
+    },
+    {
+      "path": "assets/approved-rabbit/qa-01-03.png",
+      "sha256": "3921bded59e0a91577d1b6a2e53b1786c367ff425aad53222a190c9ebe1a9109",
+      "roles": [
+        "qa_layout"
+      ],
+      "approval": "Owner-approved scoped reference retained in the portable skill; not approval of every image from the same topic."
+    },
+    {
+      "path": "assets/approved-rabbit/qa-06-08.png",
+      "sha256": "a500dcd8fedfeefc334022fb616c56f2466e8813f0456d589685704c4dea1b1c",
+      "roles": [
+        "qa_layout"
+      ],
+      "approval": "Owner-approved scoped reference retained in the portable skill; not approval of every image from the same topic."
+    },
+    {
+      "path": "assets/approved-window/cover.png",
+      "sha256": "e256e4e0a2e2f39198b9af4f2c1c0d0e7cada4b2911da77ad2fdefe84e29ffb8",
+      "roles": [
+        "cover_layout",
+        "home_treatment"
+      ],
+      "approval": "Owner-approved scoped reference retained in the portable skill; not approval of every image from the same topic."
+    },
+    {
+      "path": "assets/approved-window/picture-practice.png",
+      "sha256": "1d77148eacef9f5003afc161733351606fd17be5c1e8d7e400ce781020b51a37",
+      "roles": [
+        "practice_layout",
+        "home_treatment"
+      ],
+      "approval": "Owner-approved scoped reference retained in the portable skill; not approval of every image from the same topic."
+    },
+    {
+      "path": "assets/approved-window/qa-01-04.png",
+      "sha256": "5f277196e51b8c5fdddb2418fd869376f975fd2c5990d5c51d4318ba8b0e21f6",
+      "roles": [
+        "qa_layout",
+        "home_treatment"
+      ],
+      "approval": "Owner-approved scoped reference retained in the portable skill; not approval of every image from the same topic."
+    },
+    {
+      "path": "assets/approved-window/qa-05-08.png",
+      "sha256": "9416a055105f011ae6bfbf265e8d76dedbc387c06d1cda027772d0e7f7eaaeec",
+      "roles": [
+        "qa_layout",
+        "home_treatment"
+      ],
+      "approval": "Owner-approved scoped reference retained in the portable skill; not approval of every image from the same topic."
+    },
+    {
+      "path": "assets/key-cup-style/approved-cat-cover.png",
+      "sha256": "e75540c185103e4057f86d0bb8c6b279a28735caa2e233261f6f40c1fb16320d",
+      "roles": [
+        "cover_layout"
+      ],
+      "approval": "Owner-approved scoped reference retained in the portable skill; not approval of every image from the same topic."
+    },
+    {
+      "path": "assets/key-cup-style/cup-reference.png",
+      "sha256": "e699d8fa557c736fe1345428aefd1df3db2db758ca000f9ca04eb8636f8a6934",
+      "roles": [
+        "illustration_style"
+      ],
+      "approval": "Owner-approved scoped reference retained in the portable skill; not approval of every image from the same topic."
+    },
+    {
+      "path": "assets/key-cup-style/key-reference.png",
+      "sha256": "ab18fe9e50a748cb79ff9768f7e17834306e323dae024a29d732905129dae687",
+      "roles": [
+        "illustration_style"
+      ],
+      "approval": "Owner-approved scoped reference retained in the portable skill; not approval of every image from the same topic."
+    }
+  ]
+}

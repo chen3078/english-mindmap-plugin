@@ -1,0 +1,10 @@
+{
+  "name": "english-mindmap-lite-local",
+  "interface": {"displayName": "英语思维导图·三类图片版（本地迁移包）"},
+  "plugins": [{
+    "name": "english-mindmap-lite",
+    "source": {"source": "local", "path": "./"},
+    "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"},
+    "category": "Productivity"
+  }]
+}
