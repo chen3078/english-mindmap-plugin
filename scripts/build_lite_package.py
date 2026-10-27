@@ -44,7 +44,8 @@ def main():
     archive = out / source.name
     if archive != source:
         shutil.copyfile(source, archive)
-    tutorial = out / "English-mindmap-中文迁移教程.md"
+    # GitHub sanitizes non-ASCII asset names; the guide content remains Chinese.
+    tutorial = out / "English-mindmap-Migration-zh-CN.md"
     shutil.copyfile(PLUGIN / "INSTALL.zh-CN.md", tutorial)
     # Standalone downloaded tutorial links must work outside the extracted plugin.
     doc = tutorial.read_text(encoding="utf-8").replace(
