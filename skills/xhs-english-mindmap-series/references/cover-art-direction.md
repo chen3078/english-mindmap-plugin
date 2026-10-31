@@ -29,3 +29,7 @@ The cover passes only when all four questions have a clear **yes**:
 - **Page rhythm:** Do curves emerge naturally from the subject or title, and do headings lead directly into nearby pictures? At phone width, are text and pictures balanced across the page without a detached heading column, rigid icon grid, repeated rectangular tiles, dead gaps, or crowding?
 
 If any answer is **no**, the cover fails even when dimensions, manifest, spelling, and branch count pass. Identify the largest visual cause, change the main art, vignette selection, scale, or layout as needed, then render and compare the **whole page** again. Do not repeatedly submit near-identical variants that preserve the failed composition. Do not produce the picture-only map or use the rejected cover as the next topic's style reference. Present only the best complete candidate for owner review; visual self-check does not equal owner approval.
+
+## Centered subject/title layout gate
+
+For every new or modified map, apply [layout-balance.md](layout-balance.md) before art, after scaling, before controlled connectors and at final 350px review. Treat the left subject and title as one vertically centered unit, then re-route every connector. Practice inherits the selected cover subject position/scale. Record `vertical_balance` independently of size and branch geometry. The automated declared-bounds limit is a coarse rejection gate; verify true pixel bounds and optical whitespace manually. Existing low-position passes do not satisfy this new gate.

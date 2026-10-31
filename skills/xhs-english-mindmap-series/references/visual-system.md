@@ -52,3 +52,7 @@ Use [cover-art-direction.md](cover-art-direction.md) to plan topic identity, pic
 ## When visual consistency matters
 
 Pass the specific reference images for the output type to image generation whenever image references are supported. Keep one recognizable subject design within a topic: after the topic cover passes review, use it as the subject reference for that topic's Q&A illustrations and video stills. Never carry key, cup, Hello Kitty, Cat, Dog, or their labels into an unrelated topic. Record the actual references, prompts and edits beside output for reproducibility. Generated art can vary across runs; exact text and geometry need a layout step and final inspection.
+
+## Centered subject/title layout gate
+
+For every new or modified map, apply [layout-balance.md](layout-balance.md) before art, after scaling, before controlled connectors and at final 350px review. Treat the left subject and title as one vertically centered unit, then re-route every connector. Practice inherits the selected cover subject position/scale. Record `vertical_balance` independently of size and branch geometry. The automated declared-bounds limit is a coarse rejection gate; verify true pixel bounds and optical whitespace manually. Existing low-position passes do not satisfy this new gate.

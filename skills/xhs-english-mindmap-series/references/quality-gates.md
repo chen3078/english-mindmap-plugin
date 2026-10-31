@@ -46,3 +46,7 @@ At the start of **each new conversation**, read the on-disk references and this 
 ## Portable release
 
 Package the same skill folder, approved references, templates, fonts, scripts and license files on another computer. Follow [../MIGRATION.md](../MIGRATION.md), install `requirements.txt`, and run `python -X utf8 scripts/verify_bundle.py` to verify the unpacked inventory. Validate with `quick_validate.py` when available; test image-reference access and one cover/QA/still sample before treating migration as working. Use a versioned canonical archive. Another computer needs an image-generation service or tool with reference-image support; no skill file alone guarantees an identical generated picture.
+
+## Centered subject/title layout gate
+
+For every new or modified map, apply [layout-balance.md](layout-balance.md) before art, after scaling, before controlled connectors and at final 350px review. Treat the left subject and title as one vertically centered unit, then re-route every connector. Practice inherits the selected cover subject position/scale. Record `vertical_balance` independently of size and branch geometry. The automated declared-bounds limit is a coarse rejection gate; verify true pixel bounds and optical whitespace manually. Existing low-position passes do not satisfy this new gate.

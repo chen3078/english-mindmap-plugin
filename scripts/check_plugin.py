@@ -23,8 +23,9 @@ def main():
         assert path.is_file()
     skill = ROOT / "skills/xhs-english-mindmap-series"
     release = load(ROOT / "release.json")
-    assert release["skill_version"] == load(skill / "release.json")["version"] == "2026.10.26.3"
+    assert release["skill_version"] == load(skill / "release.json")["version"] == "2026.11.01.1"
     assert release["plugin_version"] == portable["version"]
+    assert load(skill / "release.json")["layout_policy"] == 1
     for name in ["README.md", "INSTALL.zh-CN.md"]:
         assert "GITHUB_REPOSITORY" not in (ROOT / name).read_text(encoding="utf-8"), "Repository not finalized"
     result = subprocess.run([sys.executable, "-X", "utf8", str(skill / "scripts/verify_bundle.py")])

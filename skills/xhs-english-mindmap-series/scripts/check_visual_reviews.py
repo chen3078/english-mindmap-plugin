@@ -17,6 +17,9 @@ def check_image(folder, candidate, kind):
         data = json.loads(receipt_path(folder, candidate).read_text(encoding="utf-8"))
         home = bool(data.get("home_series"))
         criteria = visual_criteria(kind, home)
+        from layout_checks import measure_candidate
+        if data.get("subject_layout") != measure_candidate(folder, candidate, kind):
+            errors.append("subject/title layout measurement changed or is missing")
         if is_home_topic(folder) and not home:
             errors.append("home-series standards were omitted")
         if data.get("candidate") != name or data.get("kind") != kind:

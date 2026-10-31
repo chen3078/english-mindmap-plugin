@@ -2,7 +2,7 @@
 name: english-mindmap
 description: "Generate Key/Cup-style English learning images for a beginner topic: a labeled mind map, a matching picture-only practice map, and complete bilingual Q&A image pages. Use for the English-mindmap three-image edition; excludes video stills, standalone English transcripts and social captions."
 metadata:
-  version: "2026.10.27.1"
+  version: "2026.11.01.1"
 ---
 
 # English-mindmap · 三类图片精简版
@@ -59,3 +59,9 @@ python -X utf8 scripts/package_images.py <主题目录> <主题图片.zip>
 `package_images.py` 通过完整检查后，仅将完整版、练习版与全部问答PNG打入主题图片包。不要把 manifest、提示词、检查图库、参考图、底稿或记录当作第四类成品交付。只链接正式图片或纯图片包，按完整版、练习版、问答页顺序交付。
 
 迁移安装与本版验证范围见 [MIGRATION.md](MIGRATION.md)。字体许可证保存在 `assets/fonts/`。
+
+## 左侧主体整体居中与检查
+
+新建或修改导图前，必须读取 [布局定位与检查](references/layout-balance.md)。左侧主体和标题作为整体默认垂直居中；缩小主体后重新定位，不能保留偏低的脚底位置。随后按实际位置重画所有连线。练习版沿用通过的完整版主体位置与大小。
+
+`layout_checks.py` 与连线渲染、逐图检查及发布检查联动，默认拦截整体中心超出页高40%—60%的布局；逐图还必须完成 `vertical_balance` 人工观察，记录真实边界、中心比例、上下留白及连线重排结果。数值仅检查所声明的框，不能替代打开PNG核实真实位置与350px整页美观。仅在用户明确指定特殊构图时记录实际指令作为例外。

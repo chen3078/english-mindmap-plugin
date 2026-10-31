@@ -50,6 +50,8 @@ def validate(manifest, plan):
     if "title_box" in plan:
         if kind == "practice" or not box(plan["title_box"]): raise ValueError("Practice cannot anchor to a removed title; invalid title_box")
         sources.append(plan["title_box"])
+    from layout_checks import validate_layout
+    validate_layout(manifest, plan)
     width=plan.get("width",4.3); color=plan.get("color",[235,99,88])
     if type(width) not in (int,float) or not 3 <= width <= 5.5: raise ValueError("Connector stroke must remain readable and consistent (3–5.5 px)")
     if not isinstance(color,list) or len(color)!=3 or any(type(c) is not int for c in color) or not (180<=color[0]<=245 and 45<=color[1]<=145 and 35<=color[2]<=140 and color[0]-color[1]>=65):
@@ -138,6 +140,8 @@ def check(folder,candidate,kind):
         with Image.open(base) as im: replay=render(manifest,im,plan)
         with Image.open(candidate) as im:
             if im.size!=SIZE or ImageChops.difference(replay,im.convert("RGB")).getbbox(): raise ValueError("Final pixels differ from the validated connected raster")
+        from layout_checks import measure_candidate
+        measure_candidate(folder, candidate, kind)
     except (OSError,ValueError,KeyError,TypeError,IndexError,AttributeError) as exc:
         return [candidate.name+": connector check failed: "+str(exc)]
     return []

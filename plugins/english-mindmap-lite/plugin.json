@@ -1,12 +1,19 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "english-mindmap-lite",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create coordinated English learning images: a labeled mind map, a picture-only practice map, and complete bilingual Q&A pages.",
-  "author": {"name": "新陈代谢（英语版）"},
+  "author": {
+    "name": "新陈代谢（英语版）"
+  },
   "homepage": "https://github.com/chen3078/english-mindmap-plugin/tree/main/plugins/english-mindmap-lite",
   "repository": "https://github.com/chen3078/english-mindmap-plugin",
-  "keywords": ["english", "mind-map", "speaking", "education"],
+  "keywords": [
+    "english",
+    "mind-map",
+    "speaking",
+    "education"
+  ],
   "extensions": {
     "com.openai": {
       "requires_local_executor": true,
@@ -18,7 +25,9 @@
         "developerName": "新陈代谢（英语版）",
         "category": "Productivity",
         "capabilities": [],
-        "defaultPrompt": ["使用三类图片版，主题：警察，职业篇，面向英语初学者。先规划完整双语问答供我确认，再生成完整版导图、无字练习图和全部双语问答图片。"]
+        "defaultPrompt": [
+          "使用三类图片版，主题：警察，职业篇，面向英语初学者。先规划完整双语问答供我确认，再生成完整版导图、无字练习图和全部双语问答图片。"
+        ]
       }
     }
   }

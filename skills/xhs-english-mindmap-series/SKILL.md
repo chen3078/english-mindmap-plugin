@@ -2,12 +2,12 @@
 name: xhs-english-mindmap-series
 description: Create a consistent Key/Cup-style hand-drawn English mind-map series for a beginner topic, including the labeled map, picture-only practice map, bilingual Q&A pages, English-only Q&A text, and one subtitle-safe video still per question. Use when the user asks for another topic or video assets in this series.
 metadata:
-  version: "2026.10.26.3"
+  version: "2026.11.01.1"
 ---
 
 # English mind-map series · Key/Cup visual direction
 
-Release **2026.10.26.3** adds mandatory connector-render bindings, final-pixel replay, geometry rejection and a separate whole-page connector-neatness inspection. The category-aware content planning and all existing illustration references remain. Follow [MIGRATION.md](MIGRATION.md) for installation and verify the full bundle.
+Release **2026.11.01.1** adds mandatory connector-render bindings, final-pixel replay, geometry rejection and a separate whole-page connector-neatness inspection. The category-aware content planning and all existing illustration references remain. Follow [MIGRATION.md](MIGRATION.md) for installation and verify the full bundle.
 
 Create a reusable topic package for English beginners. The accepted series look is the **Key/Cup** hand-drawn style. Use the owner-selected Cat mind map and approved Dog pages according to their distinct roles in [visual-system.md](references/visual-system.md). **Only the selected Cat mind map is approved as a Cat reference; Cat Q&A pages and Cat video images are not approved style references.** Use paths relative to this skill folder so the package works after it is copied to another computer.
 
@@ -101,3 +101,9 @@ When the owner asks to see images in Codex Desktop, do not treat a successful `v
 - Before delivering or packaging topic outputs, use the unified entry `python -X utf8 scripts/check_release.py <topic-folder>`. Its default `full` scope requires cover, practice, all Q&A pages by question ID, exact English text, one video PNG per question, caption, prompt notes and review gallery, plus current passing image-inspection records, generation/composition evidence and gallery bindings. Rebuild the gallery after the final review/evidence changes. For an authorized subset, explicitly pass `--scope cover`, `--scope qa,text`, `--scope video` or another listed combination; video includes its English-text dependency. Read the printed checked scope; a subset pass never means the whole package passed. `check_outputs.py` forwards to the same full checker (`--cover-only` selects cover); `check_video_outputs.py` forwards to video/text. Missing, pending, failed, stale or incomplete records block release. An observer must actually inspect images and record concrete evidence; do not fabricate findings, tool events or historical traces to pass a script.
 
 The two bundled font files are licensed under the SIL Open Font License; their license texts are in `assets/fonts/`.
+
+## 左侧主体整体居中与检查
+
+新建或修改导图前，必须读取 [布局定位与检查](references/layout-balance.md)。左侧主体和标题作为整体默认垂直居中；缩小主体后重新定位，不能保留偏低的脚底位置。随后按实际位置重画所有连线。练习版沿用通过的完整版主体位置与大小。
+
+`layout_checks.py` 与连线渲染、逐图检查及发布检查联动，默认拦截整体中心超出页高40%—60%的布局；逐图还必须完成 `vertical_balance` 人工观察，记录真实边界、中心比例、上下留白及连线重排结果。数值仅检查所声明的框，不能替代打开PNG核实真实位置与350px整页美观。仅在用户明确指定特殊构图时记录实际指令作为例外。

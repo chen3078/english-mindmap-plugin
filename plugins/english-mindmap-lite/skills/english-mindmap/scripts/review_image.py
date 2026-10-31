@@ -28,12 +28,13 @@ def is_home_topic(folder):
         raise ValueError("New topics must explicitly declare visual_family: home or general")
     return data.get("topic_en", "").strip().casefold() in HOME_TOPICS
 CHECKS = {
-    "cover": ["subject_identity", "subject_scale", "hand_drawn_style", "page_rhythm", "heading_picture_relation", "study_variety", "text_accuracy", "picture_meaning", "connectors", "connector_neatness"],
-    "practice": ["cover_continuity", "subject_scale", "hand_drawn_style", "page_rhythm", "no_text_or_circles", "picture_meaning", "connectors", "connector_neatness"],
+    "cover": ["subject_identity", "subject_scale", "vertical_balance", "hand_drawn_style", "page_rhythm", "heading_picture_relation", "study_variety", "text_accuracy", "picture_meaning", "connectors", "connector_neatness"],
+    "practice": ["cover_continuity", "subject_scale", "vertical_balance", "hand_drawn_style", "page_rhythm", "no_text_or_circles", "picture_meaning", "connectors", "connector_neatness"],
     "qa": ["subject_identity", "hand_drawn_style", "page_rhythm", "whole_page_template", "four_text_fields", "type_readability", "art_integration", "picture_meaning"],
 }
 
 CRITERIA = {
+    "vertical_balance": "Inspect actual subject/title bounds, record their combined center and page-height ratio, compare optical balance and upper/lower whitespace at 350px. Reject a compact but bottom-anchored subject; re-center after scaling, re-route all connectors, and match practice subject position/size to its current cover. Explicit user-directed exceptions need the actual instruction; numerical bounds alone do not prove aesthetics.",
     "subject_identity": "Identify the shared shape, color/material and motifs across current-topic art; allow only explicitly taught variations, never accidental redesign or leaked reference subjects.",
     "subject_scale": "Compare subject/title/right-group balance at equal page width; reject both a dominating tall slab and a tiny isolated object. Percentages alone cannot establish a pass.",
     "hand_drawn_style": "Compare irregular ink, pencil/watercolor grain, paper, restrained fills and soft edges across the main art and studies; reject hard clip art or mismatched batches.",
@@ -184,7 +185,12 @@ def prepare(folder, candidate, kind, home=False):
             and old.get("expected_content") == content)
     from connector_checks import check as check_connectors
     connector_errors = check_connectors(folder, candidate, kind)
-    result = {"candidate": rel.as_posix(), "kind": kind, "home_series": home,
+    from layout_checks import measure_candidate
+    try:
+        subject_layout = measure_candidate(folder, candidate, kind)
+    except (OSError, ValueError, KeyError, TypeError) as exc:
+        subject_layout = {"error": str(exc)}
+    result = {"subject_layout": subject_layout, "candidate": rel.as_posix(), "kind": kind, "home_series": home,
               "dimensions": size, "structure_status": "pass" if size == [1086, 1448] and not connector_errors else "fail", "connector_errors": connector_errors,
               "comparison": output.relative_to(folder).as_posix(), "comparison_sha256": digest(output),
               "sources_sha256": sources, "expected_content": content,

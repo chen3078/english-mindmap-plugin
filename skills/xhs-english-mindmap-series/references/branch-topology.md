@@ -46,3 +46,7 @@ The inspector must separately record **connector_neatness** after seeing the act
 `review_image.py` refuses a passing review when actual connector checks fail. `check_visual_reviews.py` independently reruns these checks; publication uses that same gate. Review records also bind the connector record, base and plan, so changing the layout invalidates previous inspection. No blanket exemption is applied just because an image was generated in one call or selected as a visual candidate.
 
 Do not mistake checks of manifest structure, file dimensions, or archive validity for checks of visible branch count. If the line-free image was generated from a text-bearing cover, compare every heading/label against the frozen manifest after line removal and after final rendering.
+
+## Centered subject/title layout gate
+
+For every new or modified map, apply [layout-balance.md](layout-balance.md) before art, after scaling, before controlled connectors and at final 350px review. Treat the left subject and title as one vertically centered unit, then re-route every connector. Practice inherits the selected cover subject position/scale. Record `vertical_balance` independently of size and branch geometry. The automated declared-bounds limit is a coarse rejection gate; verify true pixel bounds and optical whitespace manually. Existing low-position passes do not satisfy this new gate.

@@ -33,3 +33,7 @@ Run `python -X utf8 scripts/check_manifest.py <manifest.json>`. It reports both 
 ## Content completeness before rendering
 
 Every new topic requires `content_plan` under [content-planning.md](content-planning.md): version, category profile, full/focused scope, and all nine considered dimensions with statuses. Included dimensions bind actual question IDs; omitted/not-applicable dimensions explain the topic-specific reason. Included processes bind at least two ordered excerpts from the English answers. Full manufactured-object topics need material/part coverage and a separate how-made question. Full food topics need a source or process path, with manual review of process omissions. The full mirror fixture and other category examples are linked in the planning guide. Existing explicit legacy manifests without a plan remain readable but report that they have not met the new content standard. Do not silently change past approved content.
+
+## Layout policy
+
+Default is `layout_policy: {"version": 1, "mode": "centered"}` (omitting it has the same meaning). Only a real explicit user choice permits `mode: "user_directed"` with nonempty `user_instruction`. See [layout-balance.md](layout-balance.md). Geometry checks do not authenticate user instructions or locate actual artwork pixels.

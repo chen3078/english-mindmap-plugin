@@ -49,3 +49,7 @@ Before release, run `python -X utf8 scripts/check_release.py <topic-folder>` (de
 ## Connector neatness is a separate required finding
 
 For every cover and practice page, follow [branch-topology.md](branch-topology.md). A current renderer binding and successful final-raster replay are required before a passing review can be recorded. Compare actual curves with the approved Dog/Window page, record `connector_neatness` separately from count/endpoints, and reject irregular spacing, tangles, large loops, detached ends and intrusion into content. Program rejection limits cannot certify aesthetics or the truth of declared subject/text boxes; inspect those against the actual page. A later base, plan or record change invalidates the earlier inspection.
+
+## Centered subject/title layout gate
+
+For every new or modified map, apply [layout-balance.md](layout-balance.md) before art, after scaling, before controlled connectors and at final 350px review. Treat the left subject and title as one vertically centered unit, then re-route every connector. Practice inherits the selected cover subject position/scale. Record `vertical_balance` independently of size and branch geometry. The automated declared-bounds limit is a coarse rejection gate; verify true pixel bounds and optical whitespace manually. Existing low-position passes do not satisfy this new gate.

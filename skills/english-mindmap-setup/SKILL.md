@@ -15,3 +15,5 @@ description: Set up or check the English mind-map plugin after installation. Use
 6. 输出目录按用户工作区约定选择。用户尚未给主题时才询问；已给出的主题或确认不重复询问。
 
 简明报告已验证项目、缺少能力和下一步。未经真实生成和检查，不称首次生图已通过。
+
+首次制作主题前读取主skill的references/layout-balance.md：先整体居中定位主体和标题，缩放后重定位，再按真实位置规划连线。生成后检查真实框、中心比例、350px留白及练习版位置一致性，记录vertical_balance。初始化只检查文件与环境，不虚构已生成图片或视觉通过。

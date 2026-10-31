@@ -2,7 +2,7 @@
 
 选一个主题，制作**完整版思维导图、无字练习版、中英双语问答图片**。三类不等于三张，问答按完整内容分页。适合英语初学者自练、亲子看图问答与教学素材制作。
 
-这是独立插件 `english-mindmap-lite` v1.0.0，内置用户指定的 **English-mindmap-2026.10.27 / skill 2026.10.27.1**，与原完整版 `english-mindmap` 并存。原画风、内容规划、参考职责、连线像素与逐页检查要求保留。
+这是独立插件 `english-mindmap-lite` v1.0.1，内置基于用户指定旧包修订的 **English-mindmap-2026.11.01 / skill 2026.11.01.1**，与原完整版 `english-mindmap` 并存。原画风、内容规划、参考职责、连线像素与逐页检查要求保留。
 
 **从这里开始：[中文迁移与使用教程](INSTALL.zh-CN.md)。** 不需要原聊天记录或作者电脑上的文件。
 
@@ -31,8 +31,10 @@ codex plugin add english-mindmap-lite@english-mindmap
 
 ## 迁移文件
 
-- [独立插件迁移包与原始skill包](https://github.com/chen3078/english-mindmap-plugin/releases/tag/lite-v1.0.0)
+- [独立插件迁移包与原始skill包](https://github.com/chen3078/english-mindmap-plugin/releases/tag/lite-v1.0.1)
 - [验收与版本记录](DELIVERY.zh-CN.md)
 - [原完整版](https://github.com/chen3078/english-mindmap-plugin#readme)
 
 迁移ZIP含完整技能、16张参考图、字体及许可、安装外壳、中文教程和首次使用引导。账号、生图服务及其额度不在ZIP中。字体许可位于 `skills/english-mindmap/assets/fonts/`。
+
+布局修正版新增：主体与标题整体垂直居中、缩放后重定位、按实际位置重绘连线，并在逐图验收中独立记录vertical_balance。精简版仍仅三类图片；完整版仍保留英文稿和逐题视频配图等原范围。更新前的历史验收不能代替布局新标准；以本次版本说明与实际测试记录为准。

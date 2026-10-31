@@ -1,6 +1,6 @@
 # English-mindmap 三类图片版｜中文迁移与使用教程
 
-适用版本：独立插件 `english-mindmap-lite` v1.0.0，内置 skill `english-mindmap` 2026.10.27.1。适用对象：拿到仓库链接或迁移ZIP、没有原聊天背景的新使用者。
+适用版本：独立插件 `english-mindmap-lite` v1.0.1，内置 skill `english-mindmap` 2026.11.01.1。适用对象：拿到仓库链接或迁移ZIP、没有原聊天背景的新使用者。
 
 ## 一、迁移的是什么
 
@@ -51,7 +51,7 @@ codex plugin add english-mindmap-lite@english-mindmap
 
 ## 四、方法B：用ZIP迁移到另一台电脑
 
-从 [lite-v1.0.0发布页](https://github.com/chen3078/english-mindmap-plugin/releases/tag/lite-v1.0.0) 下载 **English-mindmap-2026.10.27-plugin-portable.zip**。`English-mindmap-2026.10.27.zip` 是原始skill包，不是带安装外壳的插件包；初次迁移请选择带 `plugin-portable` 的文件。
+从 [lite-v1.0.1发布页](https://github.com/chen3078/english-mindmap-plugin/releases/tag/lite-v1.0.1) 下载 **English-mindmap-2026.11.01-plugin-portable.zip**。`English-mindmap-2026.11.01.zip` 是原始skill包，不是带安装外壳的插件包；初次迁移请选择带 `plugin-portable` 的文件。
 
 将插件ZIP整个解压到准备长期保留的位置。打开解压后的 `english-mindmap-lite` 文件夹，应同时看到：
 
@@ -155,3 +155,5 @@ python3.11 -m venv .venv
 发布前的同机新目录、隔离Codex配置安装与脚本测试范围见 [交付记录](DELIVERY.zh-CN.md)。同机测试不冒称另一位使用者已验收。本插件提供原标准及检查流程，图片质量依赖实际生成与修正，不保证任意模型一次成功。
 
 插件结构、仓库与本地来源、引导技能依据[官方插件打包说明](https://developers.openai.com/plugins/build/plugins)；本包需要本地执行环境，参见[官方桌面插件说明](https://developers.openai.com/plugins/deploy/desktop-only)。这是GitHub分发，不等于已上架官方公共插件目录。
+
+布局修正版新增：主体与标题整体垂直居中、缩放后重定位、按实际位置重绘连线，并在逐图验收中独立记录vertical_balance。精简版仍仅三类图片；完整版仍保留英文稿和逐题视频配图等原范围。更新前的历史验收不能代替布局新标准；以本次版本说明与实际测试记录为准。

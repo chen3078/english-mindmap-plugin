@@ -16,3 +16,5 @@ description: Set up or check the English mind-map three-image plugin after insta
 7. 若两版并存，后续本次任务明确读取本插件内 `english-mindmap/SKILL.md`。用户只要求初始化时完成检查后结束；已给出主题时继续该主题的内容规划，不另问主题。只有用户授权制作才调用生图。
 
 简明报告已通过、缺少的能力与具体下一步。新使用者电脑/账号没有实际生成过主题时，标为尚待首次生图验收。
+
+首次制作主题前读取主skill的references/layout-balance.md：先整体居中定位主体和标题，缩放后重定位，再按真实位置规划连线。生成后检查真实框、中心比例、350px留白及练习版位置一致性，记录vertical_balance。初始化只检查文件与环境，不虚构已生成图片或视觉通过。

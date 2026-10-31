@@ -35,3 +35,7 @@ Record `qa_method`, the selection reason, sample filename, actual reference file
 Keep three statuses distinct: structural check passed; visual comparison passed; user approved. Record only statuses actually observed. An unchecked or failed page cannot be called complete because its files exist. If the tool, reference access, text accuracy or visual match remains unresolved, report the specific blocker and retain an unapproved status.
 
 The goal is consistent accepted output after comparison and correction. A new topic has not been proven reproducible merely because this workflow was written; that requires a real new-topic trial in a copied skill folder.
+
+## Centered subject/title layout gate
+
+For every new or modified map, apply [layout-balance.md](layout-balance.md) before art, after scaling, before controlled connectors and at final 350px review. Treat the left subject and title as one vertically centered unit, then re-route every connector. Practice inherits the selected cover subject position/scale. Record `vertical_balance` independently of size and branch geometry. The automated declared-bounds limit is a coarse rejection gate; verify true pixel bounds and optical whitespace manually. Existing low-position passes do not satisfy this new gate.

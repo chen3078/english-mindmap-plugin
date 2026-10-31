@@ -37,7 +37,7 @@ def main():
     inventory = json.loads((PLUGIN / "plugin-bundle-manifest.json").read_text(encoding="utf-8"))
     out = args.output_dir.resolve()
     out.mkdir(parents=True, exist_ok=True)
-    target = out / "English-mindmap-2026.10.27-plugin-portable.zip"
+    target = out / (source.stem + "-plugin-portable.zip")
     with zipfile.ZipFile(target, "w", zipfile.ZIP_DEFLATED, compresslevel=6) as z:
         for rel in sorted([*inventory["files_sha256"], "plugin-bundle-manifest.json"]):
             z.write(PLUGIN / rel, "english-mindmap-lite/" + rel)

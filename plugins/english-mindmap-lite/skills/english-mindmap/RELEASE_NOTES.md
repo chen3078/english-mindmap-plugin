@@ -1,3 +1,7 @@
+# 2026.11.01.1 · Centered subject/title layout
+
+新增整体居中规则、缩放后重定位、练习版位置继承、实际边界中心测量与350px人工检查。新增layout_checks，联动连线渲染、逐图及发布检查；旧版视觉记录需按新标准复核。参考素材与两版原有产出范围不变。
+
 # 2026.10.27.1 · English-mindmap 三类图片版
 
 - 独立技能名 english-mindmap，原版 xhs-english-mindmap-series 不变。

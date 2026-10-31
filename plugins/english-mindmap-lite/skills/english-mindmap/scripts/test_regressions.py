@@ -585,5 +585,46 @@ class RegressionTests(unittest.TestCase):
         self.assertTrue(check_release.check(self.folder, "qa")[0])
 
 
+
+    def test_layout_rejects_bottom_anchored_scaled_subject(self):
+        from layout_checks import validate_layout
+        old = {"kind":"cover", "subject_box":[48,650,306,1240], "title_box":[40,1260,330,1306]}
+        with self.assertRaisesRegex(ValueError, "not vertically centered"):
+            validate_layout(self.data, old)
+        corrected = {"kind":"cover", "subject_box":[48,375,306,966], "title_box":[40,986,330,1032]}
+        result = validate_layout(self.data, corrected)
+        self.assertAlmostEqual(result["center_y"],703.5)
+        self.assertFalse(result["pixel_bounds_verified_by_script"])
+
+    def test_layout_includes_title_and_checks_practice_alignment(self):
+        from layout_checks import validate_layout
+        cover = {"kind":"cover", "subject_box":[48,375,306,966], "title_box":[40,986,330,1032]}
+        # Moving a title far down is part of the layout, not ignored metadata.
+        bad = copy.deepcopy(cover); bad["title_box"]=[40,1370,330,1435]
+        with self.assertRaises(ValueError): validate_layout(self.data,bad)
+        practice = {"kind":"practice","subject_box":[48,375,306,966]}
+        self.assertEqual(validate_layout(self.data,practice,cover)["cover_max_edge_delta_px"],0)
+        practice["subject_box"]=[48,425,306,1016]
+        with self.assertRaisesRegex(ValueError,"differs from the selected cover"):
+            validate_layout(self.data,practice,cover)
+
+    def test_layout_exception_requires_actual_user_instruction(self):
+        from layout_checks import validate_layout
+        plan = {"kind":"cover", "subject_box":[48,650,306,1240], "title_box":[40,1260,330,1306]}
+        data = copy.deepcopy(self.data)
+        data["layout_policy"]={"version":1,"mode":"user_directed"}
+        with self.assertRaises(ValueError): validate_layout(data,plan)
+        data["layout_policy"]["user_instruction"]="Synthetic explicit request for a low composition; not a real approval."
+        self.assertEqual(validate_layout(data,plan)["mode"],"user_directed")
+        data["layout_policy"]["mode"]="silent_bypass"
+        with self.assertRaises(ValueError): validate_layout(data,plan)
+
+    def test_layout_blocks_connector_render_before_visual_pass(self):
+        import connector_checks
+        plan = self.connector_plan_fixture("cover")
+        plan["subject_box"]=[48,650,306,1240];plan["title_box"]=[40,1260,330,1306]
+        with self.assertRaisesRegex(ValueError,"not vertically centered"):
+            connector_checks.validate(self.data,plan)
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)

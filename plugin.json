@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "english-mindmap",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create coordinated English mind maps, picture-only practice, bilingual Q&A and video stills from a chosen topic.",
   "author": {
     "name": "新陈代谢（英语版）"

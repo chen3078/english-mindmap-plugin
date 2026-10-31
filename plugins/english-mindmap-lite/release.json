@@ -1,10 +1,10 @@
 {
   "plugin_name": "english-mindmap-lite",
-  "plugin_version": "1.0.0",
-  "release_tag": "lite-v1.0.0",
-  "skill_version": "2026.10.27.1",
-  "source_archive": "English-mindmap-2026.10.27.zip",
-  "source_archive_sha256": "9c45553acf357b914423203b2d9dce4cabce2f45d5c20ac66704c9d22a42db81",
+  "plugin_version": "1.0.1",
+  "release_tag": "lite-v1.0.1",
+  "skill_version": "2026.11.01.1",
+  "source_archive": "English-mindmap-2026.11.01.zip",
+  "source_archive_sha256": "f26bfdfff28a8c8704f042dd41ab254a339da18e7c962ed827edd30ffe20f237",
   "source_skill_bytes_unchanged": true,
   "reference_pngs": 16,
   "deliverables": [
@@ -12,6 +12,9 @@
     "practice",
     "qa"
   ],
-  "full_edition_unchanged": true,
-  "receiver_end_to_end_tested": false
+  "full_edition_unchanged": false,
+  "receiver_end_to_end_tested": false,
+  "layout_policy": 1,
+  "derived_from_archive": "English-mindmap-2026.10.27.zip",
+  "full_edition_scope_unchanged": true
 }

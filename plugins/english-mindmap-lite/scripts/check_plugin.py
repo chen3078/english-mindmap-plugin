@@ -36,7 +36,8 @@ def main():
         assert compat["skills"] == "./skills/"
         assert portable["extensions"]["com.openai"]["requires_local_executor"] is True
         assert portable["version"] == release["plugin_version"]
-        assert release["skill_version"] == load(skill / "release.json")["version"] == "2026.10.27.1"
+        assert load(skill / "release.json")["layout_policy"] == 1
+        assert release["skill_version"] == load(skill / "release.json")["version"] == "2026.11.01.1"
         assert load(skill / "release.json")["deliverables"] == ["cover", "practice", "qa"]
         assert len(list((skill / "assets").rglob("*.png"))) == release["reference_pngs"] == 16
         assert market["name"] == "english-mindmap-lite-local"
